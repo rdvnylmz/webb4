@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
-from PIL import Imagesp
 import pandas as pd
 from io import StringIO
-from IPython.display import HTML
 
 
 #Sayfa ayarları.
