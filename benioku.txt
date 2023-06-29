@@ -1,0 +1,37 @@
+Proje çalıştırılmak isteniyorsa, tek yapılması gereken Home.py dosyasına
+gelip,terminali açmak ve "streamlit run Home.py" komutunu çalıştırılmaktır.
+
+Premier Lig 2022/2023 sezonu için tahminler bulunmaktadır. Farklı liglere bakılmak isteniyorsa,
+yapılması gereken Fbref sitesinde ilgili ligin sayfasına gitmek ve kopyalanan linki "fbref_scrape"
+dosyasındaki "hedef_url" değişkenine atamaktır.Örneğin Bundesliga için: https://fbref.com/en/comps/20/Bundesliga-Stats. 
+Tablolar da görülmek isteniyorsa https://www.football-data.co.uk
+sitesinden ilgili ligin csv dosyası indirilir ve "tablolar_icin" dosyasında epl değişkenine atanır.
+Bundan sonra yapılması gereken tek şey Home.py dosyasına gidip yine "streamlit run Home.py" komutunu çalıştırmaktır.
+
+
+
+
+
+
+Proje Python temelli çalıştırmaktır.Gerekli kütüphaneler aşağıda listelenmiştir,terminale kopyala yapıştır yaparak 
+bilgisayarada bulunmayan kütüphaneler de yüklenebilir.
+
+pip install streamlit
+pip install pandas
+pip install numpy
+pip install streamlit.components.v1 as components
+pip install penaltyblog as pb
+pip install PIP 
+pip install streamlit_pandas 
+pip install bs4
+pip install scipy
+
+
+Gol beklentisi modellemesi görülmek isteniyorsa, projenin kendisiyle alakası yoktur.
+pip install seaborn 
+pip install matplotlib
+pip install statsmodels
+pip install sklearn
+pip install plotly
+pip install  highlight_text 
+pip install pathlib
