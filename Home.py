@@ -1,8 +1,7 @@
 import streamlit as st
 import numpy as np
-from PIL import Image
+from PIL import Imagesp
 import pandas as pd
-import streamlit_pandas as sp
 from io import StringIO
 from IPython.display import HTML
 
