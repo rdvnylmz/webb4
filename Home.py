@@ -4,7 +4,7 @@ import pandas as pd
 
 
 #Sayfa ayarları.
-st.set_page_config(layout="wide",
+st.set_page_config(
 page_title = "Maç Tahminleri",
 page_icon = ":soccer:")
 st. title("Ana Sayfa")
@@ -104,8 +104,8 @@ sol, merkez,sag = st.columns(3)
 with merkez:
     st.image('Icons/logo-color.png')
 
-colT1,colT2 = st.columns([1,3,1])
-with colT2:
+sol, merkez,sag = st.columns(3)
+with merkez:
     st.title("""**:blue[Futbol Tahmin Uygulaması]** """)
 
 # st.markdown("<h1 style='text-align: center;>Futbol Tahmin Uygulaması</h1>", unsafe_allow_html=True)
