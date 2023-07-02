@@ -102,11 +102,11 @@ def filtre_df(df: pd.DataFrame) -> pd.DataFrame:
 
 sol, merkez,sag = st.columns(3)
 with merkez:
-    st.image('Icons/logo-color.png')
+    st.image('Icons/logo-color.png',width=250)
 
 sol, merkez,sag = st.columns(3)
 with merkez:
-    st.title("""**:blue[   Tahmin Uygulaması]** """)
+    st.title("""**:blue[Tahmin Uygulaması]** """)
 
 # st.markdown("<h1 style='text-align: center;>Futbol Tahmin Uygulaması</h1>", unsafe_allow_html=True)
 # st.write('<p style="color:red;</p>', 
