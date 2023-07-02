@@ -106,7 +106,7 @@ with merkez:
 
 sol, merkez,sag = st.columns(3)
 with merkez:
-    st.title("""**:blue[Tahmin Uygulaması]** """)
+    st.title("""**:blue[   Tahmin Uygulaması]** """)
 
 # st.markdown("<h1 style='text-align: center;>Futbol Tahmin Uygulaması</h1>", unsafe_allow_html=True)
 # st.write('<p style="color:red;</p>', 
