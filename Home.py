@@ -9,7 +9,7 @@ page_title = "Maç Tahminleri",
 page_icon = ":soccer:")
 st. title("Ana Sayfa")
 
-##Bu veri tipleriyle filtreeleme yapılacak.
+#Bu veri tipleriyle filtreleme yapılacak.
 from pandas.api.types import (
     is_categorical_dtype,
     is_datetime64_any_dtype,
@@ -104,8 +104,8 @@ sol, merkez,sag = st.columns(3)
 with merkez:
     st.image('Icons/logo-color.png')
 
-sol, merkez,sag = st.columns(3)
-with merkez:
+colT1,colT2 = st.columns([1,8])
+with colT2:
     st.title("""**:blue[Futbol Tahmin Uygulaması]** """)
 
 # st.markdown("<h1 style='text-align: center;>Futbol Tahmin Uygulaması</h1>", unsafe_allow_html=True)
