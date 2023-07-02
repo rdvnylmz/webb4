@@ -4,7 +4,7 @@ import pandas as pd
 
 
 #Sayfa ayarları.
-st.set_page_config(
+st.set_page_config(layout=wide,
 page_title = "Maç Tahminleri",
 page_icon = ":soccer:")
 st. title("Ana Sayfa")
