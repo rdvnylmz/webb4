@@ -102,7 +102,7 @@ def filtre_df(df: pd.DataFrame) -> pd.DataFrame:
 
 sol, merkez,sag = st.columns(3)
 with merkez:
-    st.image('Icons/logo-color.png',width=400)
+    st.image('Icons/logo-color.png',width=370)
 
 sol, merkez,sag = st.columns(3)
 with merkez:
