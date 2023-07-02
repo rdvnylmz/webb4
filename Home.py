@@ -104,7 +104,7 @@ sol, merkez,sag = st.columns(3)
 with merkez:
     st.image('Icons/logo-color.png')
 
-colT1,colT2 = st.columns([1,8])
+colT1,colT2 = st.columns([1,3,1])
 with colT2:
     st.title("""**:blue[Futbol Tahmin Uygulaması]** """)
 
